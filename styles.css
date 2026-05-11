@@ -676,6 +676,14 @@ h3 {
   overflow: hidden;
   background: var(--paper-2);
   border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+.pi__avatar img,
+.pi__avatar svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .pi__role {
   font-family: var(--font-sans);
